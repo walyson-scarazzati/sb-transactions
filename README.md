@@ -1,18 +1,20 @@
 # Spring Batch Transactions
 
-Projeto para demonstrar como o Spring Batch gerencia transações dentro de um chunk.
-O projeto possui um job que lê um arquivo de usuários e os insere no banco de dados.
+Project from "Curso Otimização de desempenho para jobs Spring Batch" - Udemy: https://www.udemy.com/course/otimizacao-de-desempenho-para-jobs-spring-batch/
 
-## Roteiro
+Project to demonstrate how Spring Batch manages transactions within a chunk.
+The project has a job that reads a user file and inserts them into the database.
 
-- [ ] [Controle transacional com 1 banco de dados](https://github.com/giuliana-bezerra/sb-transactions/tree/v1.0)
-- [ ] [Transação deixa de funcionar com a adição de um novo banco para escrita](https://github.com/giuliana-bezerra/sb-transactions/tree/v2.0)
-- [ ] [Ajustar para utilizar transação no banco secundário](https://github.com/giuliana-bezerra/sb-transactions/tree/v3.0)
+## Roadmap
 
-## Referências
+- [ ] [Transaction control with 1 database](https://github.com/giuliana-bezerra/sb-transactions/tree/v1.0)
+- [ ] [Transaction stops working with the addition of a new database for writing](https://github.com/giuliana-bezerra/sb-transactions/tree/v2.0)
+- [ ] [Adjust to use transaction in the secondary database](https://github.com/giuliana-bezerra/sb-transactions/tree/v3.0)
 
-- [Vídeo do Youtube](https://youtu.be/iZXYG7fM8jI)
-- [Curso de Spring Batch](https://www.udemy.com/course/curso-para-desenvolvimento-de-jobs-com-spring-batch/?referralCode=8743E206FA9240686B20)
+## References
+
+- [YouTube Video](https://youtu.be/iZXYG7fM8jI)
+- [Spring Batch Course](https://www.udemy.com/course/curso-para-desenvolvimento-de-jobs-com-spring-batch/?referralCode=8743E206FA9240686B20)
 
 ## How to Run
 1. Ensure you have Java and Maven installed.
